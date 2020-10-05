@@ -30,10 +30,10 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
 }
 int main() {
     int bridge_length, weight, N, x;
-    vector<int> truck_weights;          
+    vector<int> truck_weights;
 
     scanf("%d%d%d", &bridge_length, &weight, &N);
-    
+
     for (int i = 0; i < N; i++) {
         scanf("%d", &x);
         truck_weights.push_back(x);
